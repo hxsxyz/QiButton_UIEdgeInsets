@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10088A72119C4DC002CA9E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10088A62119C4DC002CA9E2 /* AppDelegate.m */; };
+		F10088AA2119C4DC002CA9E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10088A92119C4DC002CA9E2 /* ViewController.m */; };
+		F10088AD2119C4DC002CA9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10088AB2119C4DC002CA9E2 /* Main.storyboard */; };
+		F10088AF2119C4DD002CA9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10088AE2119C4DD002CA9E2 /* Assets.xcassets */; };
+		F10088B22119C4DD002CA9E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10088B02119C4DD002CA9E2 /* LaunchScreen.storyboard */; };
+		F10088B52119C4DD002CA9E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10088B42119C4DD002CA9E2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10088A22119C4DC002CA9E2 /* QiButton_UIEdgeInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiButton_UIEdgeInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10088A52119C4DC002CA9E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F10088A62119C4DC002CA9E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F10088A82119C4DC002CA9E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F10088A92119C4DC002CA9E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F10088AC2119C4DC002CA9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10088AE2119C4DD002CA9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10088B12119C4DD002CA9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10088B32119C4DD002CA9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10088B42119C4DD002CA9E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F100889F2119C4DC002CA9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10088992119C4DC002CA9E2 = {
+			isa = PBXGroup;
+			children = (
+				F10088A42119C4DC002CA9E2 /* QiButton_UIEdgeInsets */,
+				F10088A32119C4DC002CA9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10088A32119C4DC002CA9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10088A22119C4DC002CA9E2 /* QiButton_UIEdgeInsets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10088A42119C4DC002CA9E2 /* QiButton_UIEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				F10088A52119C4DC002CA9E2 /* AppDelegate.h */,
+				F10088A62119C4DC002CA9E2 /* AppDelegate.m */,
+				F10088A82119C4DC002CA9E2 /* ViewController.h */,
+				F10088A92119C4DC002CA9E2 /* ViewController.m */,
+				F10088AB2119C4DC002CA9E2 /* Main.storyboard */,
+				F10088AE2119C4DD002CA9E2 /* Assets.xcassets */,
+				F10088B02119C4DD002CA9E2 /* LaunchScreen.storyboard */,
+				F10088B32119C4DD002CA9E2 /* Info.plist */,
+				F10088B42119C4DD002CA9E2 /* main.m */,
+			);
+			path = QiButton_UIEdgeInsets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10088A12119C4DC002CA9E2 /* QiButton_UIEdgeInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10088B82119C4DD002CA9E2 /* Build configuration list for PBXNativeTarget "QiButton_UIEdgeInsets" */;
+			buildPhases = (
+				F100889E2119C4DC002CA9E2 /* Sources */,
+				F100889F2119C4DC002CA9E2 /* Frameworks */,
+				F10088A02119C4DC002CA9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiButton_UIEdgeInsets;
+			productName = QiButton_UIEdgeInsets;
+			productReference = F10088A22119C4DC002CA9E2 /* QiButton_UIEdgeInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F100889A2119C4DC002CA9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = QiShare;
+				TargetAttributes = {
+					F10088A12119C4DC002CA9E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F100889D2119C4DC002CA9E2 /* Build configuration list for PBXProject "QiButton_UIEdgeInsets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10088992119C4DC002CA9E2;
+			productRefGroup = F10088A32119C4DC002CA9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10088A12119C4DC002CA9E2 /* QiButton_UIEdgeInsets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10088A02119C4DC002CA9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10088B22119C4DD002CA9E2 /* LaunchScreen.storyboard in Resources */,
+				F10088AF2119C4DD002CA9E2 /* Assets.xcassets in Resources */,
+				F10088AD2119C4DC002CA9E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F100889E2119C4DC002CA9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10088AA2119C4DC002CA9E2 /* ViewController.m in Sources */,
+				F10088B52119C4DD002CA9E2 /* main.m in Sources */,
+				F10088A72119C4DC002CA9E2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F10088AB2119C4DC002CA9E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10088AC2119C4DC002CA9E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10088B02119C4DD002CA9E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10088B12119C4DD002CA9E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10088B62119C4DD002CA9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F10088B72119C4DD002CA9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10088B92119C4DD002CA9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiButton_UIEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.lsq.QiButton-UIEdgeInsets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10088BA2119C4DD002CA9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiButton_UIEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.lsq.QiButton-UIEdgeInsets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F100889D2119C4DC002CA9E2 /* Build configuration list for PBXProject "QiButton_UIEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10088B62119C4DD002CA9E2 /* Debug */,
+				F10088B72119C4DD002CA9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10088B82119C4DD002CA9E2 /* Build configuration list for PBXNativeTarget "QiButton_UIEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10088B92119C4DD002CA9E2 /* Debug */,
+				F10088BA2119C4DD002CA9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F100889A2119C4DC002CA9E2 /* Project object */;
+}
